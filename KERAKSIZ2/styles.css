@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://t4.ftcdn.net/jpg/02/66/38/15/360_F_266381525_alVrbw15u5EjhIpoqqa1eI5ghSf7hpz7.jpg ) ;
+    background-size: cover;
+    background-position: top center;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#updateButton {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#updateButton:hover {
+    background-color: red;
+}
+#updateButton:active{
+background-color: black;
+}
+#weather {
+    display: flex;
+    justify-content: space-around;
+}
+
+.day {
+    background: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.day h2 {
+    margin: 0 0 10px;
+}
+
+.day p {
+    margin: 5px 0;
+}
